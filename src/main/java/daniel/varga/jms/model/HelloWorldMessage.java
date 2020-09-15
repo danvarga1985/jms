@@ -1,12 +1,12 @@
 package daniel.varga.jms.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
 import java.io.Serializable;
 import java.util.UUID;
 
+@Setter
+@Getter
 @Data
 @Builder
 @AllArgsConstructor
