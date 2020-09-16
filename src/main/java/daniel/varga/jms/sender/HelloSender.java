@@ -5,12 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import daniel.varga.jms.config.JmsConfig;
 import daniel.varga.jms.model.HelloWorldMessage;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.Session;
