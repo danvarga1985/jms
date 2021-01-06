@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JmsApplication {
 
     public static void main(String[] args) throws Exception {
-        //Embedded server
+        /*
+         Embedded server - official default config. - Just for demonstration, if ArtemisJmsServer is on the classpath,
+         it gets configured automatically.
+        */
 //        ActiveMQServer server = ActiveMQServers.newActiveMQServer(new ConfigurationImpl()
 //                .setPersistenceEnabled(false)
 //                .setJournalDirectory("target/data/journal")
